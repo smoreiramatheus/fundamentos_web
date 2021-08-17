@@ -1,0 +1,17 @@
+/*
+Estilo da página index
+*/
+p{
+    text-align:center;
+    font-family: italic;
+}
+body{
+    text-align: center;
+    background-color: grey;
+}
+
+
+/*
+Estilo da pagina de contato
+
+*/
