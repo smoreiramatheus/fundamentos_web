@@ -1,17 +1,75 @@
-/*
-Estilo da página index
-*/
-p{
-    text-align:center;
-    font-family: italic;
-}
+/* Estilo da página index */
+
 body{
-    text-align: center;
-    background-color: grey;
+    
+    background-color: black;
+    color: white;
 }
 
 
-/*
-Estilo da pagina de contato
+.center{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+          
+}
+.justify{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 
-*/
+}
+
+
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.icone{
+    font-size: 30px;
+    text-align: center;
+}
+
+#rodape{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer div i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/* Estilo da pagina de contato */
+
+.ml-50{
+    margin-left: 60px;
+}
+
+#rodapeContato{
+    color: white;
+}
